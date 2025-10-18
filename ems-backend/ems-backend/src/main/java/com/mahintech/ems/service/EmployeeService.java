@@ -4,7 +4,9 @@ import java.util.List;
 
 import com.mahintech.ems.dto.EmployeeDto;
 
-public interface EmployeeService {
+public interface EmployeeService{
+	
+	//This is Employee Service 
 	
 	EmployeeDto createEmployee(EmployeeDto employeeDto);
 	
