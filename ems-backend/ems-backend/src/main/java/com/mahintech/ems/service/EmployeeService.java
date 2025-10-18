@@ -6,8 +6,6 @@ import com.mahintech.ems.dto.EmployeeDto;
 
 public interface EmployeeService{
 	
-	//This is Employee Service 
-	
 	EmployeeDto createEmployee(EmployeeDto employeeDto);
 	
 	EmployeeDto getEmployeeById(Long employeeId);
