@@ -30,7 +30,7 @@ public class EmployeeController {
         this.employeeService = employeeService;
     }
 	
-    // Add employee REST API
+    // Add employee REST API employee
 	@PostMapping
 	public ResponseEntity<EmployeeDto> createEmployee(@RequestBody EmployeeDto employeeDto){
 		EmployeeDto savedEmployee = employeeService.createEmployee(employeeDto);
