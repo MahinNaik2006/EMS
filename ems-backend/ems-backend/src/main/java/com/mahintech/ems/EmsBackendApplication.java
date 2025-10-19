@@ -3,7 +3,7 @@ package com.mahintech.ems;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication //This application file to run 
 public class EmsBackendApplication {
 
 	public static void main(String[] args) {
@@ -11,3 +11,4 @@ public class EmsBackendApplication {
 	}
 
 }
+	
